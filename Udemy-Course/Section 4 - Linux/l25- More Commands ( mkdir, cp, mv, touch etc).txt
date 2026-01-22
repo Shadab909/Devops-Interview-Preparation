@@ -46,6 +46,8 @@ I will give name as devopsfile and I'll use curly braces and I will give a range
 
 And I'll put an extension also, .txt
 
+TOUCH DEVOPSFILE{1..10}.TXT
+
 hit enter and now you should see 10 files that start with name devops then the number of the file
 
 and then ends with .txt
@@ -312,7 +314,7 @@ There is no trash.
 
 There is no recycle bin here.
 
-If you want to get your files back now, then you have to do disk hard disk restoration, which could
+IF YOU WANT TO GET YOUR FILES BACK NOW, THEN YOU HAVE TO DO DISK HARD DISK RESTORATION, which could
 
 be complicated and not 100 percent assurance that you'll get back all your files.
 

@@ -238,7 +238,7 @@ This is the top level directory
 
 of Linux operating system
 
-or any Nix operating system.
+or any unix operating system.
 
 So, you should see here,
 
@@ -342,23 +342,25 @@ You can give the complete cat /etc/hostname/
 
 and you should see the current hostname.
 
+NOTE : HOSTNAME IS STORE IN /ETC/HOSTNAME BUT MINE ONE IS EMPTY , FOR ME ITS STORED AT /PROC/SYS/KERNEL/HOSTNAME 
+
 If you want, you can edit this file and change it.
 
 We'll be learning that,
 
 how to edit files through vi editor.
 
-Yum configuration
+YUM CONFIGURATION
 
-which is the package manager in Red Hat machine.
+WHICH IS THE PACKAGE MANAGER IN RED HAT MACHINE.
 
-Like you have Google Play Store
+LIKE YOU HAVE GOOGLE PLAY STORE
 
-on your Android phone, like that.
+ON YOUR ANDROID PHONE, LIKE THAT.
 
-Networks configuration and so many other
+NETWORKS CONFIGURATION AND SO MANY OTHER
 
-configuration files.
+CONFIGURATION FILES.
 
 We'll be seeing a lot of files from this directory.
 
@@ -386,53 +388,53 @@ which you want to use later.
 
 This is just for temporary purpose.
 
-/boot kernels and bootloaders.
+/BOOT KERNELS AND BOOTLOADERS.
 
-cd /boot.
+CD /BOOT.
 
-So, that's your bootloader, initramfs,
+SO, THAT'S YOUR BOOTLOADER, INITRAMFS,
 
-vmlinuz, that's your your kernel.
+VMLINUZ, THAT'S YOUR YOUR KERNEL.
 
-And there's a grub directory inside this
+AND THERE'S A GRUB DIRECTORY INSIDE THIS
 
-where you'll have the configuration for booting,
+WHERE YOU'LL HAVE THE CONFIGURATION FOR BOOTING,
 
-grub2, this you get it more into system administration.
+GRUB2, THIS YOU GET IT MORE INTO SYSTEM ADMINISTRATION.
 
-You need to change the booting parameters
+YOU NEED TO CHANGE THE BOOTING PARAMETERS
 
-the kernel version, stuff like that.
+THE KERNEL VERSION, STUFF LIKE THAT.
 
-Then, you can use these configurations.
+THEN, YOU CAN USE THESE CONFIGURATIONS.
 
-/var, or /srv to store the server data.
+/VAR, OR /SRV TO STORE THE SERVER DATA.
 
 We'll be seeing that later.
 
-System information, /proc /sys.
+SYSTEM INFORMATION, /PROC /SYS.
 
 Let me show you one example from this.
 
 If you are anywhere in the Linux system
 
-and if you want to come back
+and IF YOU WANT TO COME BACK
 
-to your home directory,
+TO YOUR HOME DIRECTORY,
 
-you can just say cd and hit Enter.
+YOU CAN JUST SAY CD AND HIT ENTER.
 
 You'll come back to your home directory.
 
-From here, let's go to /proc
+From here, let's go to /PROC
 
-and you will see some files over here.
+AND YOU WILL SEE SOME FILES OVER HERE.
 
-These are dynamic files.
+THESE ARE DYNAMIC FILES.
 
-Mostly, they'll be changing
+MOSTLY, THEY'LL BE CHANGING
 
-based on the system information.
+BASED ON THE SYSTEM INFORMATION.
 
 Like for example, there is a command called uptime
 
@@ -459,6 +461,8 @@ that you'll have some information,
 /proc/uptime but it may not be user readable.
 
 Or you have command like free -m
+
+NOTE: FREE IS STORE AT /BIN/FREE (IN MY CASE) OR /USR/BIN/FREE BUT IT READS DATA FROM /PROC/MEMINFO
 
 which shows you the RAM size.
 
