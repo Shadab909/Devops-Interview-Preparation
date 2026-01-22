@@ -1,0 +1,37 @@
+## Vagrant Box Setup
+
+1) search for the box name from vagrant cloud
+2) on gitbash
+  vagrant init boxname (downloads and creates the vm and boots it up)
+  Note :  if gave wrong name, edit name in vagrant file in the path
+3) lecture-flow:-
+  vagrant up (after init try to check status or do ssh without up)
+  vagrant box list
+  vagrant status
+  vagrant ssh (login vm)
+  sudo -i (switch from vagrant user to root user)
+  vagrant halt (poweroff the vm)
+  vagrant up (power up)
+  vagrant reload (reboot, it read all chnages to vag file and apply them except for box name chnage for that if you chnage the box name , delete exiting box and recreate)
+  vagrant destroy (delete the vm)
+  vagrant status (not craeted) , file is still there
+  vagrant up (now its creating the vm as if was deleted. It will import the box already present in the box, no re-download)
+  vagrant box list ( shows all box)
+  vagrnat halt (shut down vm)
+  
+  now ubuntu vm (go to ubuntu folder)
+  serach for ubuntu box (ubuntu jammy 64
+  vagrnat inti box name
+  vagrnat up
+  vagrant status (status of vm in that pwd)
+  vagrant global-status (status of all vm's status)
+  vagrant global-status --prune (confusion )
+  vagrnat ssh (login to ubuntu)
+  sudo -i (from vagrant to root user)
+  vagrant halt (poweroff ubuntu vm)
+  
+  Note: poweroff the vm them power off your personal computer
+  
+## Linux
+
+Freely available to   
